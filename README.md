@@ -24,7 +24,6 @@ This crate requires rustup and cargo setup in your env
 Create a configuration file named `config.toml` in the root directory of the project with the following content:
 
 ```toml
-Copy code
 rpc_url = "https://api.testnet.solana.com"
 retry_attempts = 3
 server_address="127.0.0.1:3030"
